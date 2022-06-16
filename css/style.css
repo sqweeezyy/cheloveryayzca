@@ -1,0 +1,60 @@
+h1 {
+    font-size: 72px;
+    color: green;
+    font-family: 'Rajdhani';
+    background-color: white;
+    padding: 10px;
+}
+
+body{
+    margin: 0;
+}
+.myclass{
+    color:blueviolet
+    font-size 32px;
+}
+.gayclass{
+    color: black
+}
+
+.section-header {
+    background-color: #00A651;
+    padding-left: 20px;  
+    padding-right: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-logo{
+    display: flex;
+    
+}
+ 
+.logo-text {
+    max-width: 100  px;
+    color: white;
+}
+.menu-items {
+    color: white;
+    list-style-type: none;
+    padding: 0;
+}
+
+li{
+    display: inline;
+    padding-right: 20px;
+    cursor: pointer;
+}
+
+li:hover {
+    color: gold;
+}
+
+.banner{
+    height: 700px;
+    background-image: url('../images/banner\ 1.png');
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
